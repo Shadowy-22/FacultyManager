@@ -15,7 +15,7 @@ public class Titular extends Docente {
             int antiguedad
     ) {
         super(numLegajo, nombre, edad, salario, fechaNacimiento);
-        this._antiguedad = antiguedad; 
+        _antiguedad = antiguedad; 
     }
 
     @Override

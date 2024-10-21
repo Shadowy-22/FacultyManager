@@ -15,7 +15,7 @@ public class Suplente extends Docente {
             String zonaRural
     ) {
         super(numLegajo, nombre, edad, salario, fechaNacimiento); 
-        this._zonaRural = zonaRural;
+        _zonaRural = zonaRural;
     }
 
     @Override

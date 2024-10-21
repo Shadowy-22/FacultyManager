@@ -16,11 +16,11 @@ public abstract class Docente {
     protected boolean _plusSalarialAplicado = false;
 
     public Docente(int numLegajo, String nombre, int edad, double salario, LocalDate fechaNacimiento) {
-        this._numLegajo = numLegajo;
-        this._nombre = nombre;
-        this._edad = edad;
-        this._salario = salario;
-        this._fechaNacimiento = fechaNacimiento;
+        _numLegajo = numLegajo;
+        _nombre = nombre;
+        _edad = edad;
+        _salario = salario;
+        _fechaNacimiento = fechaNacimiento;
     }
 
     // Método que utilizamos siempre al asignar una fecha de nacimiento a un Docente para convertirla a LocalDate.
